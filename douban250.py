@@ -42,9 +42,6 @@ def scrape_douban():
             print(quote)
             print('-'*30)
 
-        writer.writerow([title,rating,quote])
-        print(f'{title}已存入库')
-
 if __name__=='__main__':
     scrape_douban()
 
